@@ -11,7 +11,7 @@
       <tr>
           <td>            <p-image [src]='getSafeUrl(file?.url)' width="30"></p-image>
           </td>
-          <td width="20">{{file.name}}</td>
+          <td><p>{{file.name}}</p></td>
           <td>{{file.type}}</td>
           <td>
               <button pTooltip="Show more" (click)="showDialog(file)" pButton icon="pi pi-ellipsis-h"></button>
